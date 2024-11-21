@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6" pages="3">
   <diagram name="Smart数据设计" id="-1efHBeFu1DE2YetIO0x">
     <mxGraphModel dx="3274" dy="2517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,8 +132,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="zP9MXp8b5DFFTHJrinF6" name="Smart启动流程">
-    <mxGraphModel dx="3274" dy="2917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="zP9MXp8b5DFFTHJrinF6" name="Smart主框架启动流程">
+    <mxGraphModel dx="3175" dy="2854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,16 +146,16 @@
             <mxPoint x="-560" y="-1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ss_OQlWvzU8tKHAKHF96-5" value="rsApplication 构造函数:&lt;div&gt;1. 初始化当前 hostname&lt;/div&gt;&lt;div&gt;2. 屏蔽 SIGINT/SIGQUIT/SIGTERM 三个信号&lt;br&gt;&lt;div&gt;3. 设置当前状态为 UNINITIALIZED&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-5" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rsApplication 构造函数:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1. 初始化当前 hostname&lt;/div&gt;&lt;div&gt;2. 屏蔽 SIGINT/SIGQUIT/SIGTERM 三个信号&lt;br&gt;&lt;div&gt;3. 设置当前状态为 UNINITIALIZED&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-720" y="-1160" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ss_OQlWvzU8tKHAKHF96-7" value="&lt;div style=&quot;&quot;&gt;rsServerApplication 构造函数:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1. 捕获 SIGINT/ SIGTERM，无视系统默认处理&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2. 将程序状态设置为 STOPPING&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-7" value="&lt;div style=&quot;&quot;&gt;rsServerApplication 构造函数:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1. 捕获 SIGINT/ SIGTERM，无视系统默认处理&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2. 将程序状态设置为 STOPPING&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
           <mxGeometry x="-720" y="-1040" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ss_OQlWvzU8tKHAKHF96-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-8" target="Ss_OQlWvzU8tKHAKHF96-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ss_OQlWvzU8tKHAKHF96-8" value="&lt;span style=&quot;&quot;&gt;rsApplianceApplication 构造函数：&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1. 初始化 rsCoreManager&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;2. 输出二进制文件报告（GXX ABI 属性）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-8" value="&lt;span style=&quot;&quot;&gt;rsApplianceApplication 构造函数：&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1. 初始化 rsCoreManager&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;2. 输出二进制文件报告（GXX ABI 属性）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
           <mxGeometry x="-720" y="-920" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ss_OQlWvzU8tKHAKHF96-9" value="&lt;span style=&quot;text-align: left;&quot;&gt;rsCoreManager&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -170,7 +170,7 @@
         <mxCell id="Ss_OQlWvzU8tKHAKHF96-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-14" target="Ss_OQlWvzU8tKHAKHF96-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ss_OQlWvzU8tKHAKHF96-14" value="rsServerApplication::Go( )&lt;br&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1. 打印当前的环境信息&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;2. 初始化&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-14" value="rsServerApplication::Go( )&lt;br&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1. 打印当前的环境信息&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;2. 初始化&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
           <mxGeometry x="-720" y="-800" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ss_OQlWvzU8tKHAKHF96-15" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;DumpEnvironment( )&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
@@ -179,13 +179,13 @@
         <mxCell id="Ss_OQlWvzU8tKHAKHF96-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-16" target="Ss_OQlWvzU8tKHAKHF96-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ss_OQlWvzU8tKHAKHF96-16" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rsServerApplication::&lt;/span&gt;&lt;span style=&quot;&quot;&gt;Initialize( )：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1. 调用基类&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rsApplication&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;的&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Initialize( )&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 将程序状态设置为 INITIALIZED&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-16" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rsServerApplication::&lt;/span&gt;&lt;span style=&quot;&quot;&gt;Initialize( )：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1. 调用基类&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rsApplication&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;的&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Initialize( )&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 将程序状态设置为 INITIALIZED&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
           <mxGeometry x="-720" y="-560" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ss_OQlWvzU8tKHAKHF96-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.997;entryY=0.15;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;entryPerimeter=0;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-19" target="Ss_OQlWvzU8tKHAKHF96-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ss_OQlWvzU8tKHAKHF96-19" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rsApplication&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;&quot;&gt;Initialize( )：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1. 将程序状态设置为 INITIALIZING&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;调用 _&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Initialize( ) 虚函数执行具体的初始化操作&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-19" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rsApplication&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;&quot;&gt;Initialize( )：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1. 将程序状态设置为 INITIALIZING&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;调用 _&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Initialize( ) 虚函数执行具体的初始化操作&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
           <mxGeometry x="-720" y="-440" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ss_OQlWvzU8tKHAKHF96-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-20">
@@ -206,7 +206,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ss_OQlWvzU8tKHAKHF96-20" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;_&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Initialize&lt;/span&gt;&lt;span style=&quot;&quot;&gt;( )：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1. 解析 xml 配置文件&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;2. 将自身，xml对象和xml路径设置到内持的 rsApplicance 对象 _applicance 中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;3. 初始化&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;_applicance&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. 启动&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;_applicance&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-20" target="Ss_OQlWvzU8tKHAKHF96-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-380" y="-260" />
+              <mxPoint x="-380" y="-30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-20" target="Ss_OQlWvzU8tKHAKHF96-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-380" y="-260" />
+              <mxPoint x="-380" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-20" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;_&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Initialize&lt;/span&gt;&lt;span style=&quot;&quot;&gt;( )：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;1. 解析 xml 配置文件&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;2. 将自身，xml对象和xml路径设置到内持的 rsApplicance 对象 _applicance 中。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;3. 初始化&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;_applicance&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. 启动&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;_applicance&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
           <mxGeometry x="-720" y="-320" width="320" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Ss_OQlWvzU8tKHAKHF96-23" value="XmlElement" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -221,11 +237,126 @@
         <mxCell id="Ss_OQlWvzU8tKHAKHF96-28" value="set_config&lt;span style=&quot;background-color: initial;&quot;&gt;( )&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="-200" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ss_OQlWvzU8tKHAKHF96-30" value="init&lt;span style=&quot;background-color: initial;&quot;&gt;( )&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-80" width="320" height="80" as="geometry" />
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-30" target="Ss_OQlWvzU8tKHAKHF96-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="60" />
+              <mxPoint x="520" y="-40" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Ss_OQlWvzU8tKHAKHF96-31" value="start( )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="320" height="80" as="geometry" />
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-30" target="Ss_OQlWvzU8tKHAKHF96-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="60" />
+              <mxPoint x="520" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-30" value="init&lt;span style=&quot;background-color: initial;&quot;&gt;( ):&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. dump xml 内容&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. dump xml DOM 的对象内容&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 设置 device lib 目录到 _device_directory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. 解析 xml 设置内持 rsScheduler 对象 _scheduler 参数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5. 启动 _scheduler&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6. 解析 xml 的 device 部分，生成 rsDevice 对象，并保存到内持列表&amp;nbsp;_devices 中&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.&amp;nbsp; 遍历&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;_devices&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;列表，对 device 进行逐一初始化&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-80" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.009;entryY=0.333;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;entryPerimeter=0;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-31" target="Ss_OQlWvzU8tKHAKHF96-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="240" />
+              <mxPoint x="520" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-31" target="Ss_OQlWvzU8tKHAKHF96-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="240" />
+              <mxPoint x="520" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-31" value="start( )：&lt;div&gt;1. 遍历 _devices 中的 device，执行 _mainloop( )&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;遍历 _devices 中的 device，执行 _start( )&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-32" value="&lt;span style=&quot;text-align: left;&quot;&gt;rsScheduler&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="640" y="-1280" width="240" height="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-33" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rsDevice&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-1280" width="240" height="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-34" value="start( )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-80" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;verticalAlign=middle;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-35" target="Ss_OQlWvzU8tKHAKHF96-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;verticalAlign=middle;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-35" target="Ss_OQlWvzU8tKHAKHF96-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-35" value="_init( ):&lt;div&gt;1. 初始化当前 device&lt;/div&gt;&lt;div&gt;2. 初始化当前 device对象的内持 command_server 对象&lt;/div&gt;&lt;div&gt;3. 初始化当前 device对象的 command 集合&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="40" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-38" value="virtual init( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="200" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;verticalAlign=middle;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-39" target="Ss_OQlWvzU8tKHAKHF96-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-39" value="_register_commands( )&amp;nbsp;&lt;div&gt;1. 创建根命令树下的 commands&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 创建 /schedule 下的命令&lt;/div&gt;&lt;div&gt;3. 调用 register_command 创建当前 rsDevice 的具体命令&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="360" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-40" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;command_server&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1520" y="-1280" width="240" height="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-42" value="&lt;span style=&quot;text-align: left;&quot;&gt;virtual register_command&lt;/span&gt;( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="520" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-47" target="Ss_OQlWvzU8tKHAKHF96-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-47" value="_mainloop( ):&lt;div&gt;1. 设置 device 的状态为 dev_starting&lt;/div&gt;&lt;div&gt;2. 为当前 rsDevice 创建 mainloop 线程, 设置线程名&lt;/div&gt;&lt;div&gt;3. 为主线程设置优先级和CPU绑定（pin_and_pri）&lt;/div&gt;&lt;div&gt;4. 启动 mainloop&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="640" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-48" value="mainloop( ):&lt;div&gt;1. 只要当前 device 不处于 dev_stopping 以上的状态，就持续的从高优先级任务队列（_priority_invoke_task）/普通任务（&lt;span style=&quot;background-color: initial;&quot;&gt;_invoke_task&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）队列中取出任务并执行&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="800" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ss_OQlWvzU8tKHAKHF96-51" target="Ss_OQlWvzU8tKHAKHF96-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-51" value="_start( ):&lt;div&gt;1. 设置 device 的状态为 dev_starting&lt;/div&gt;&lt;div&gt;2. 为当前 rsDevice 创建 _start_thread 线程，设置线程名：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2.1 调用具体 rsDevice 的 start 虚函数&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2.2 载入 schedule 文件&lt;/div&gt;&lt;div&gt;3. 启动 command_server&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1000" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss_OQlWvzU8tKHAKHF96-52" value="&lt;span style=&quot;text-align: left;&quot;&gt;virtual start&lt;/span&gt;( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1160" width="320" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Y5-wwpEodinnaDFfVwoV" name="Smart Device 启动流程">
+    <mxGraphModel dx="2183" dy="2393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Da6eGNEnSEJFMa9VPZvC-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rsDevice&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-720" y="-1560" width="240" height="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="Da6eGNEnSEJFMa9VPZvC-5" value="virtual init( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="-1400" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Da6eGNEnSEJFMa9VPZvC-8" value="&lt;span style=&quot;text-align: left;&quot;&gt;virtual register_command&lt;/span&gt;( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="-720" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Da6eGNEnSEJFMa9VPZvC-14" value="&lt;span style=&quot;text-align: left;&quot;&gt;virtual start&lt;/span&gt;( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="40" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Da6eGNEnSEJFMa9VPZvC-15" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;smart_device&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-280" y="-1560" width="240" height="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="Da6eGNEnSEJFMa9VPZvC-16" value="init( ):&lt;div&gt;1. 通过 config.xml 文件分别读取feed、order_gateway、algo的 lib 路径，分别用以设置 price_feed_factory、order_gateway_factory 和 algo_factory&lt;/div&gt;&lt;div&gt;2. 使用&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;order_gateway_factory&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;创建 order_gateway&lt;/span&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.1 调用&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;order_gateway_factory&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; 的 create 方法创建 order_gateway 对象&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.2 调用 order_gateway对象的 init 方法进行初始化&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.3 将当前的 smart_device 注册到 order_gateway 中&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2.4 调用&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;order_gateway&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;的 register_command 方法注册柜台专属的 command&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.5 将&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;order_gateway 对象注册到 smart_device 内持的 _gateways 中&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 使用&amp;nbsp;&lt;/span&gt;price_feed_factory&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;创建 price_feed&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.1&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;调用&amp;nbsp;&lt;/span&gt;price_feed_factory&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;的 create 方法创建&amp;nbsp;&lt;/span&gt;price_feed&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;对象&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;调用&amp;nbsp;&lt;/span&gt;price_feed&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;对象的 init 方法进行初始化&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.3&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. 使用 algo_factory 创建 algo&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-1400" width="320" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Da6eGNEnSEJFMa9VPZvC-17" value="&lt;span style=&quot;text-align: left;&quot;&gt;virtual register_command&lt;/span&gt;( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-720" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Da6eGNEnSEJFMa9VPZvC-18" value="&lt;span style=&quot;text-align: left;&quot;&gt;virtual start&lt;/span&gt;( )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="40" width="320" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
