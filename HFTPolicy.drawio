@@ -144,6 +144,105 @@
         <mxCell id="gl2pg5933DISATZ6bNUu-22" value="report_final_status( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-260" y="360" width="440" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-23" value="FutureTradeMaps" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-280" y="480" width="480" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-24" value="contract_id_map" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="320" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-25" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="gl2pg5933DISATZ6bNUu-24">
+          <mxGeometry y="20" width="200" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="gl2pg5933DISATZ6bNUu-25">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-27" value="&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;string&lt;/font&gt;&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-26">
+          <mxGeometry width="100" height="30" as="geometry">
+            <mxRectangle width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-28" value="&lt;b&gt;&lt;font&gt;int&lt;/font&gt;&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-26">
+          <mxGeometry x="100" width="100" height="30" as="geometry">
+            <mxRectangle width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="gl2pg5933DISATZ6bNUu-25">
+          <mxGeometry y="30" width="200" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-31" value="合约名称" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-30">
+          <mxGeometry width="100" height="38" as="geometry">
+            <mxRectangle width="100" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-32" value="合约数组下标" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-30">
+          <mxGeometry x="100" width="100" height="38" as="geometry">
+            <mxRectangle width="100" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-38" value="contract_id_map" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="520" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-39" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="gl2pg5933DISATZ6bNUu-38">
+          <mxGeometry y="20" width="200" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-40" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="gl2pg5933DISATZ6bNUu-39">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-41" value="&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;string&lt;/font&gt;&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-40">
+          <mxGeometry width="100" height="30" as="geometry">
+            <mxRectangle width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-42" value="&lt;b&gt;&lt;font&gt;int&lt;/font&gt;&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-40">
+          <mxGeometry x="100" width="100" height="30" as="geometry">
+            <mxRectangle width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-43" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="gl2pg5933DISATZ6bNUu-39">
+          <mxGeometry y="30" width="200" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-44" value="合约名称" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-43">
+          <mxGeometry width="100" height="38" as="geometry">
+            <mxRectangle width="100" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-45" value="合约数组下标" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-43">
+          <mxGeometry x="100" width="100" height="38" as="geometry">
+            <mxRectangle width="100" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-46" value="contract_name_map" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="520" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-47" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="gl2pg5933DISATZ6bNUu-46">
+          <mxGeometry y="20" width="200" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-48" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="gl2pg5933DISATZ6bNUu-47">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-49" value="&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;int&lt;/font&gt;&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-48">
+          <mxGeometry width="100" height="30" as="geometry">
+            <mxRectangle width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-50" value="&lt;b&gt;&lt;font&gt;string&lt;/font&gt;&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-48">
+          <mxGeometry x="100" width="100" height="30" as="geometry">
+            <mxRectangle width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-51" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="gl2pg5933DISATZ6bNUu-47">
+          <mxGeometry y="30" width="200" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-52" value="合约数组下标" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-51">
+          <mxGeometry width="100" height="38" as="geometry">
+            <mxRectangle width="100" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-53" value="合约名称" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-51">
+          <mxGeometry x="100" width="100" height="38" as="geometry">
+            <mxRectangle width="100" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
