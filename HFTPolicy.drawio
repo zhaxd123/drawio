@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="26.0.6">
-  <diagram name="第 1 页" id="-cTT98FBJnrN7GUKnVA_">
-    <mxGraphModel>
+  <diagram name="HFTPolicy" id="-cTT98FBJnrN7GUKnVA_">
+    <mxGraphModel dx="937" dy="1257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fW6s4l17m6dkninJZm_C-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fW6s4l17m6dkninJZm_C-1" target="fW6s4l17m6dkninJZm_C-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-1" value="HFTPolicy" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-250" width="280" height="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-2" value="qtapi::IPolicy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-400" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-4" value="Init( )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-200" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-5" value="Release( )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-100" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-6" value="OnSetParam( )&lt;div&gt;// 通过配置文件设置内部参数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-7" value="OnSetFutureTrader( )&lt;div&gt;// 通过配置文件设置 HtPolicy::trader_&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="100" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-8" value="OnStarted( )" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="200" width="240" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-9" value="OnStopped( )" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="580" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-10" value="OnOneSecond( )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="960" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-11" value="OnNewFutureMD( )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1060" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-12" value="OnFOrderChanged( )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1160" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-13" value="OnFOrderFilled( )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1260" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-14" value="1. 读取 trade config&lt;div&gt;2. 读取 pre_position config&lt;/div&gt;&lt;div&gt;3. 解析得到 pre_positions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-15" value="4. 设置 display 输出模块" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-16" value="5. 初始化交易模块" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="380" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-17" value="6. 创建并启动 signal_receiver" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="440" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-18" value="7. 启动 event consumer" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="500" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-19" value="InitializeAllTradingElements" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="280" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-20" value="1. 初始化 FutureStrategyMaster" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-22" value="2. 初始化 FutureTradingMaps" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-24" value="3. 初始化 FutureTradingTables" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-25" value="3. 初始化 FutureTradingStatus" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="240" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
