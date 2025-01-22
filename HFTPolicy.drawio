@@ -73,8 +73,8 @@
         <mxCell id="fW6s4l17m6dkninJZm_C-25" value="4. 初始化 FutureTradingStatus" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="100" y="340" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fW6s4l17m6dkninJZm_C-26" value="5. 初始化 FutureTradingPosition&lt;div&gt;6. 使用 pre_position 进行设置&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="100" y="400" width="240" height="40" as="geometry" />
+        <mxCell id="fW6s4l17m6dkninJZm_C-26" value="5. 初始化 FutureTradingPosition&lt;div&gt;6. 使用 pre_position 设置仓位&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
