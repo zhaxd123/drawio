@@ -59,19 +59,22 @@
           <mxGeometry x="-280" y="500" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fW6s4l17m6dkninJZm_C-19" value="InitializeAllTradingElements" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="80" y="120" width="280" height="360" as="geometry" />
+          <mxGeometry x="80" y="120" width="280" height="440" as="geometry" />
         </mxCell>
         <mxCell id="fW6s4l17m6dkninJZm_C-20" value="1. 初始化 FutureStrategyMaster" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="100" y="160" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fW6s4l17m6dkninJZm_C-22" value="2. 初始化 FutureTradingMaps" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="fW6s4l17m6dkninJZm_C-22" value="2. 初始化 FutureTradeMaps" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="100" y="220" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fW6s4l17m6dkninJZm_C-24" value="3. 初始化 FutureTradingTables" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="100" y="280" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fW6s4l17m6dkninJZm_C-25" value="3. 初始化 FutureTradingStatus" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="fW6s4l17m6dkninJZm_C-25" value="4. 初始化 FutureTradingStatus" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="100" y="340" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fW6s4l17m6dkninJZm_C-26" value="5. 初始化 FutureTradingPosition&lt;div&gt;6. 使用 pre_position 进行设置&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
