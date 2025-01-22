@@ -180,7 +180,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gl2pg5933DISATZ6bNUu-38" value="contract_id_map" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="520" width="200" height="90" as="geometry" />
+          <mxGeometry x="-260" y="520" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gl2pg5933DISATZ6bNUu-39" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="gl2pg5933DISATZ6bNUu-38">
           <mxGeometry y="20" width="200" height="68" as="geometry" />
@@ -212,7 +212,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gl2pg5933DISATZ6bNUu-46" value="contract_name_map" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="520" width="200" height="90" as="geometry" />
+          <mxGeometry x="-20" y="520" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gl2pg5933DISATZ6bNUu-47" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="gl2pg5933DISATZ6bNUu-46">
           <mxGeometry y="20" width="200" height="68" as="geometry" />
