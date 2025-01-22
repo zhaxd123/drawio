@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="26.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="26.0.6" pages="2">
   <diagram name="HFTPolicy" id="-cTT98FBJnrN7GUKnVA_">
-    <mxGraphModel dx="937" dy="1257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1177" dy="1257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,6 +84,65 @@
         </mxCell>
         <mxCell id="fW6s4l17m6dkninJZm_C-30" value="&lt;div&gt;9. 初始化 FutureTradersAPI&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="100" y="600" width="240" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ai68HdCF-v5yR4_sxB1E" name="数据结构">
+    <mxGraphModel dx="2234" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gl2pg5933DISATZ6bNUu-1" value="FutureStrategyMaster" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-280" y="-200" width="480" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-2" value="*" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-3" value="*" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-4" value="*" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-5" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="-40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-6" value="strategy_list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gl2pg5933DISATZ6bNUu-7" target="gl2pg5933DISATZ6bNUu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-7" value="BaseFutureStrategy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="-200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-170" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-10" value="strategy_id_size" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-15" value="intiial(tradeday, config)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-16" value="on_future_signal(signal)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="60" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-17" value="on_order_cancel_finish(策略单，交易单)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="120" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-18" value="on_order_finished(策略单, 完成类型, 交易单)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="180" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-19" value="on_order_filled(策略单, 完成类型, 交易单, 成交价，成交量)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="240" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-20" value="freeze_strategies_by_contract(contract_id)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="300" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-22" value="report_final_status( )" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="360" width="440" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
