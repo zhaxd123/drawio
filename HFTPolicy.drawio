@@ -2307,6 +2307,38 @@
         <mxCell id="YCC9_02N22p8nfzXTt-A-310" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YCC9_02N22p8nfzXTt-A-306" target="YCC9_02N22p8nfzXTt-A-297">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-311" value="sub_strategy_id_2_trd_id" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="6780" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-312" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="YCC9_02N22p8nfzXTt-A-311">
+          <mxGeometry y="20" width="200" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-313" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="YCC9_02N22p8nfzXTt-A-312">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-314" value="&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;pair&amp;lt;int, int&amp;gt;&lt;/font&gt;&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="YCC9_02N22p8nfzXTt-A-313">
+          <mxGeometry width="100" height="30" as="geometry">
+            <mxRectangle width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-315" value="&lt;b&gt;&lt;font&gt;int&lt;/font&gt;&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="YCC9_02N22p8nfzXTt-A-313">
+          <mxGeometry x="100" width="100" height="30" as="geometry">
+            <mxRectangle width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-316" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="YCC9_02N22p8nfzXTt-A-312">
+          <mxGeometry y="30" width="200" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-317" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;算法号，算法单号&amp;gt;&lt;/font&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="YCC9_02N22p8nfzXTt-A-316">
+          <mxGeometry width="100" height="38" as="geometry">
+            <mxRectangle width="100" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-318" value="交易单号" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="YCC9_02N22p8nfzXTt-A-316">
+          <mxGeometry x="100" width="100" height="38" as="geometry">
+            <mxRectangle width="100" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
