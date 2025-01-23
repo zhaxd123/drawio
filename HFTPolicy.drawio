@@ -1278,6 +1278,64 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-428" value="todayShortPositionAll (0..11)" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="3360" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-429" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-428">
+          <mxGeometry y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-430" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-428">
+          <mxGeometry x="40" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-431" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-428">
+          <mxGeometry x="80" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-432" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-428">
+          <mxGeometry x="120" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-433" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-428">
+          <mxGeometry x="160" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-434" value="map" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="3360" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-435" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="gl2pg5933DISATZ6bNUu-434">
+          <mxGeometry y="20" width="270" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-436" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="gl2pg5933DISATZ6bNUu-435">
+          <mxGeometry width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-437" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;string&lt;/b&gt;&lt;/span&gt;" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-436">
+          <mxGeometry width="135" height="30" as="geometry">
+            <mxRectangle width="135" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-438" value="&lt;b&gt;int&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-436">
+          <mxGeometry x="135" width="135" height="30" as="geometry">
+            <mxRectangle width="135" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-439" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="gl2pg5933DISATZ6bNUu-435">
+          <mxGeometry y="30" width="270" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-440" value="account" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-439">
+          <mxGeometry width="135" height="38" as="geometry">
+            <mxRectangle width="135" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-441" value="空头今仓" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="gl2pg5933DISATZ6bNUu-439">
+          <mxGeometry x="135" width="135" height="38" as="geometry">
+            <mxRectangle width="135" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gl2pg5933DISATZ6bNUu-442" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gl2pg5933DISATZ6bNUu-436" target="gl2pg5933DISATZ6bNUu-429">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-330" y="3410" />
+              <mxPoint x="-330" y="3410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
