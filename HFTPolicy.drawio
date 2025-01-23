@@ -1889,10 +1889,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YCC9_02N22p8nfzXTt-A-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YCC9_02N22p8nfzXTt-A-166" target="YCC9_02N22p8nfzXTt-A-142">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-495" y="5030" />
+              <mxPoint x="-428" y="5030" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YCC9_02N22p8nfzXTt-A-166" value="map" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="5080" width="270" height="90" as="geometry" />
+          <mxGeometry x="-630" y="5050" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YCC9_02N22p8nfzXTt-A-167" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="YCC9_02N22p8nfzXTt-A-166">
           <mxGeometry y="20" width="270" height="70" as="geometry" />
@@ -1985,7 +1990,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YCC9_02N22p8nfzXTt-A-191" value="map" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="5360" width="270" height="90" as="geometry" />
+          <mxGeometry x="-630" y="5330" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YCC9_02N22p8nfzXTt-A-192" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="YCC9_02N22p8nfzXTt-A-191">
           <mxGeometry y="20" width="270" height="70" as="geometry" />
