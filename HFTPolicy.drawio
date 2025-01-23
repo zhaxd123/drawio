@@ -732,7 +732,7 @@
           <mxGeometry x="-260" y="2360" width="440" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gl2pg5933DISATZ6bNUu-232" value="FutureTradingPosition" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-280" y="2480" width="480" height="2280" as="geometry" />
+          <mxGeometry x="-280" y="2480" width="480" height="2360" as="geometry" />
         </mxCell>
         <mxCell id="gl2pg5933DISATZ6bNUu-233" value="real_time" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-250" y="2520" width="120" height="40" as="geometry" />
@@ -1820,6 +1820,12 @@
         </mxCell>
         <mxCell id="YCC9_02N22p8nfzXTt-A-127" value="get_open_available(contract_id, 买卖方向, 单笔最大手数, &amp;amp;可开仓位, &amp;amp;可开类型)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-260" y="4640" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-128" value="check_position(contact_id, 单笔最大手数)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="4700" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-129" value="split_volume(待交易量，可开仓位，可开类型，&amp;amp;账户可开数， &amp;amp;账户可开类型)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="4760" width="440" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
