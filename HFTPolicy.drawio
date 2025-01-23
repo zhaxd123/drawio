@@ -1828,7 +1828,7 @@
           <mxGeometry x="-260" y="4760" width="440" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YCC9_02N22p8nfzXTt-A-130" value="FutureTradingOrders" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-280" y="4880" width="480" height="1000" as="geometry" />
+          <mxGeometry x="-280" y="4880" width="480" height="1640" as="geometry" />
         </mxCell>
         <mxCell id="YCC9_02N22p8nfzXTt-A-131" value="all_cancelled_orders (0..11)" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-250" y="4920" width="200" height="70" as="geometry" />
@@ -2252,6 +2252,36 @@
               <mxPoint x="-330" y="5830" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-268" value="initialize()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="5920" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-269" value="is_valid_order(trade_order)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="5980" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-270" value="insert_order(trade_order)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="6040" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-271" value="get_cancel_orders_by_time(contract_id, realtime, endtime, 时间窗偏移1， 时间窗偏移2， &amp;amp;cancel_orders)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="6100" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-272" value="get_cancel_orders_by_open_position(contract_id, 多空, &amp;amp;cancel_orders)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="6160" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-273" value="cancel_order(交易单)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="6220" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-274" value="check_can_cancel_order(交易单)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="6280" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-275" value="onFilledUpdate(trade_order, trade_volume)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="6340" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-276" value="onOrderComplete(trade_order)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="6400" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCC9_02N22p8nfzXTt-A-277" value="getUnfinishedVolume(contract_id, &amp;amp;分帐户未完成量，&amp;amp;分帐户未完成类型)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="6460" width="440" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
