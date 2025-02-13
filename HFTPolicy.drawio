@@ -2550,8 +2550,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sWoiDhIxEJljjneNlJ0Y-1" value="signal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sWoiDhIxEJljjneNlJ0Y-1" value="signal queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-400" y="-440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sWoiDhIxEJljjneNlJ0Y-2" value="event queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-440" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
