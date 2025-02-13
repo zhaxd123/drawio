@@ -1883,7 +1883,7 @@
             <mxRectangle width="135" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCC9_02N22p8nfzXTt-A-188" value="撤单次数表" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="YCC9_02N22p8nfzXTt-A-186" vertex="1">
+        <mxCell id="YCC9_02N22p8nfzXTt-A-188" value="交易单信息表" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="YCC9_02N22p8nfzXTt-A-186" vertex="1">
           <mxGeometry x="135" width="135" height="40" as="geometry">
             <mxRectangle width="135" height="40" as="alternateBounds" />
           </mxGeometry>
