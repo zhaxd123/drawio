@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="26.0.6" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="5">
   <diagram name="HFTPolicy" id="-cTT98FBJnrN7GUKnVA_">
     <mxGraphModel dx="1177" dy="1257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2708,6 +2708,17 @@
         </mxCell>
         <mxCell id="6f0gH3Y8-wCGWQyuCBYR-50" value="数据流" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="550" y="-990" width="820" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8jDjjW7bnVTDIVqBE5gS" name="代码阅读">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KCWCZZGAZAcebdU2e7OG-1" value="仓位处理部分：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FutureTradingPosition&lt;/span&gt;&lt;div&gt;仓位处理模块目前维护了三类数据：&lt;/div&gt;&lt;div&gt;1）display position 数据，专门负责dump 到 display file 中&lt;/div&gt;&lt;div&gt;2）账户信息：维护了每个 contract 下有哪些账户（unordered_map），以及这些账户的顺序(vector)&lt;/div&gt;&lt;div&gt;3）当前仓位数据，包括账户可交易最大手数、已经占用的手数、今天开的多空仓位、今天开仓金额、今天已完结利润和今天的浮动盈亏等。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry width="480" height="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
