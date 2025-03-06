@@ -1,9 +1,44 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
-  <diagram name="第 1 页" id="URdqgQ9ywC9-zDl-EaOu">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="2">
+  <diagram name="模块" id="URdqgQ9ywC9-zDl-EaOu">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="feOOVioLAqPZcGWc1d9--1" value="ActualPositionDB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="feOOVioLAqPZcGWc1d9--2" value="DBConnectionPool&lt;div&gt;//&amp;nbsp;链接 SQL 数据库&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="feOOVioLAqPZcGWc1d9--4" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="feOOVioLAqPZcGWc1d9--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="feOOVioLAqPZcGWc1d9--4" target="feOOVioLAqPZcGWc1d9--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OAtjJLmcrKw9Vd1Cq_iK" name="流程">
+    <mxGraphModel dx="2261" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-1" value="PositionMgr.Init( )&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化时在 Init 函数中通过 json 配置文件解析出&amp;nbsp;ProductConfig，然后存入&amp;nbsp;hash_products_&amp;nbsp;数据结构中&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-2" value="&lt;span style=&quot;text-align: left;&quot;&gt;hash_products_&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;string : Product&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-3" value="Plugin&amp;nbsp;构造函数&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;调用 InitConfig( )&amp;nbsp;进行模块配置初始化&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-120" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i-nkXKOmJGmnzbzkcPUM-4" target="i-nkXKOmJGmnzbzkcPUM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-4" value="外部框架：create_plugin.h&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建 Plugin&amp;nbsp;对象&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-240" width="360" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
