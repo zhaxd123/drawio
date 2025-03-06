@@ -66,11 +66,17 @@
         <mxCell id="i-nkXKOmJGmnzbzkcPUM-15" value="Plugin::Action&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;实盘（非replay场景）：&lt;div&gt;调用 MD&amp;nbsp;模块的 MDCallback()&amp;nbsp;方法&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="40" y="920" width="360" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-21" value="ti1&amp;nbsp;发生更新时" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i-nkXKOmJGmnzbzkcPUM-16" target="i-nkXKOmJGmnzbzkcPUM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i-nkXKOmJGmnzbzkcPUM-16" value="MD::MDCallback&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 解析行情结构&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;更新当前最新的接收行情时间戳&amp;nbsp;latest_timestamp_&lt;/div&gt;&lt;div&gt;3.&amp;nbsp;从当前行情时间得到对应的&amp;nbsp;ti1&lt;/div&gt;&lt;div&gt;4.&amp;nbsp;从当前行情取出&amp;nbsp;lastprice，判断价格是否有效&lt;/div&gt;&lt;div&gt;5.&amp;nbsp;更新对应股票对应 ti1 的价格到 MD::index_prices_ 中&lt;/div&gt;&lt;div&gt;6.&amp;nbsp;得到对应&amp;nbsp;stock&amp;nbsp;的&amp;nbsp;ii，更新 ii 的价格到 MD::ti1_prices 中&lt;/div&gt;&lt;div&gt;7.&amp;nbsp;判断当前时点对应的&amp;nbsp;ti1&amp;nbsp;发生变化，触发&amp;nbsp;ti1&amp;nbsp;回调函数 ti1callback_&lt;/div&gt;&lt;div&gt;8.&amp;nbsp;得到当前时点对应的&amp;nbsp;ti5&lt;/div&gt;&lt;div&gt;9.&amp;nbsp;更新&amp;nbsp;ii&amp;nbsp;的价格到 MD::ti5_prices_&amp;nbsp;中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="40" y="1040" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="i-nkXKOmJGmnzbzkcPUM-19" value="每个&amp;nbsp;tick&amp;nbsp;来都会去计算当前timestamp所属的 ti1 并更新其信息（stock&amp;nbsp;价格，ii&amp;nbsp;价格，timestamp等），但是只有当前&amp;nbsp;ti1&amp;nbsp;发生更新时才会触发&amp;nbsp;ti1callback&amp;nbsp;回调函数；ti5&amp;nbsp;同理" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-160" y="1080" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-20" value="&lt;div&gt;on_minute1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;调用 PositionMgr::OnMinute1&amp;nbsp;触发仓位模块的1分钟回调函数&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1320" width="360" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
