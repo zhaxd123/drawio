@@ -94,7 +94,16 @@
           <mxGeometry x="-330" y="1020" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i-nkXKOmJGmnzbzkcPUM-29" value="IIMgr的初始化：&lt;div&gt;构造函数中读取 InstrumentIndex.csv&amp;nbsp;文件得到股票索引正反维护到 hash_code2ii&amp;nbsp;和 hash_ii2code&amp;nbsp;中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-160" width="320" height="60" as="geometry" />
+          <mxGeometry x="480" y="-160" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-30" value="DIMgr的初始化：&lt;div&gt;构造函数中读取 DateIndex.csv&amp;nbsp;文件得到日期索引正反维护到&amp;nbsp;map_date2di&amp;nbsp;和 map_di2date&amp;nbsp;中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-60" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-31" value="全局初始化：&lt;div&gt;config::SetReplay()&amp;nbsp;设置全局回放模式标志位&lt;/div&gt;&lt;div&gt;config::SetDebug( )&amp;nbsp;设置全局调试模式标志位&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="20" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-33" value="CSVMgr 初始化：&lt;div&gt;构造函数中更新&amp;nbsp;csv&amp;nbsp;输出路径到 csv_dir_&amp;nbsp;中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
