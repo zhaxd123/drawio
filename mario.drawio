@@ -105,8 +105,8 @@
         <mxCell id="i-nkXKOmJGmnzbzkcPUM-33" value="CSVMgr 初始化：&lt;div&gt;构造函数中更新&amp;nbsp;csv&amp;nbsp;输出路径到 csv_dir_&amp;nbsp;中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="480" y="120" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i-nkXKOmJGmnzbzkcPUM-34" value="&lt;div&gt;BlackWhiteList 的初始化：&lt;/div&gt;&lt;div&gt;1.&amp;nbsp;设置&amp;nbsp;dsn&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="480" y="200" width="320" height="110" as="geometry" />
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-34" value="&lt;div&gt;BlackWhiteList 的初始化：&lt;/div&gt;&lt;div&gt;BlackWhiteList .Init()&amp;nbsp;&lt;/div&gt;&lt;div&gt;1.&amp;nbsp;设置&amp;nbsp;dsn&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;创建数据库连接池&amp;nbsp;pool，连接池大小为2&lt;/div&gt;&lt;div&gt;3.&amp;nbsp;使用今天日期获取今天的股票黑白名单项目，放入一个 vector 中返回，然后用这个 vector&amp;nbsp;更新 hash_black_white&amp;nbsp;结构，以字典的方式维护股票名称和是否在黑白名单（valid字段）的对应关系。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="320" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
