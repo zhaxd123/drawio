@@ -25,10 +25,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="i-nkXKOmJGmnzbzkcPUM-1" value="PositionMgr.Init( )&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;初始化时在 Init 函数中通过 json 配置文件解析出&amp;nbsp;ProductConfig，然后存入&amp;nbsp;hash_products_&amp;nbsp;数据结构中&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="360" width="360" height="120" as="geometry" />
+          <mxGeometry x="40" y="600" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i-nkXKOmJGmnzbzkcPUM-2" value="&lt;span style=&quot;text-align: left;&quot;&gt;hash_products_&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;string : Product&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="440" width="160" height="40" as="geometry" />
+          <mxGeometry x="-160" y="680" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i-nkXKOmJGmnzbzkcPUM-3" value="Plugin&amp;nbsp;构造函数&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;调用 InitConfig( )&amp;nbsp;进行模块配置初始化&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="40" y="-120" width="360" height="80" as="geometry" />
@@ -39,8 +39,8 @@
         <mxCell id="i-nkXKOmJGmnzbzkcPUM-4" value="外部框架：create_plugin.h&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建 Plugin&amp;nbsp;对象&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="40" y="-240" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="i-nkXKOmJGmnzbzkcPUM-6" value="&lt;div&gt;InitConfig( )&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.&amp;nbsp;初始化 IIMgr，用于管理股票名称到内部整型 index&amp;nbsp;的单例模块，维护了正反管理两者映射的数据结构，使用外部 InstrumentIndex.csv&amp;nbsp;文件进行初始化&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" width="360" height="160" as="geometry" />
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-6" value="&lt;div&gt;InitConfig( )&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.&amp;nbsp;初始化 IIMgr，用于管理股票名称到内部整型 index&amp;nbsp;的单例模块，维护了正反管理两者映射的数据结构，使用外部 InstrumentIndex.csv&amp;nbsp;文件进行初始化&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;初始化 DIMgr，用于管理交易日到&amp;nbsp;index&amp;nbsp;的单例模块，也是维护了正反&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;查询&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;数据结构使用 DateIndex.csv&amp;nbsp;进行初始化&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" width="360" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
