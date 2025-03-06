@@ -20,7 +20,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OAtjJLmcrKw9Vd1Cq_iK" name="流程">
-    <mxGraphModel dx="1799" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1212" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,8 +111,11 @@
         <mxCell id="i-nkXKOmJGmnzbzkcPUM-35" value="&lt;div&gt;RealTimeSignalDB 的初始化：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RealTimeSignalDB.Init()&lt;/div&gt;&lt;div&gt;1.&amp;nbsp;设置&amp;nbsp;dsn&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;创建数据库连接池对象&amp;nbsp;poll&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="480" y="380" width="320" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="i-nkXKOmJGmnzbzkcPUM-36" value="&lt;div&gt;ActualPositionDB的初始化：&lt;/div&gt;&lt;div&gt;ActualPositionDB.Init()&amp;nbsp;&lt;/div&gt;&lt;div&gt;1.&amp;nbsp;设置&amp;nbsp;dsn&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;创建数据库连接池对象&amp;nbsp;pool&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="480" y="500" width="320" height="100" as="geometry" />
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-36" value="&lt;div&gt;ActualPositionDB 的初始化：&lt;/div&gt;&lt;div&gt;ActualPositionDB.Init()&amp;nbsp;&lt;/div&gt;&lt;div&gt;1.&amp;nbsp;设置&amp;nbsp;dsn&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;创建数据库连接池对象&amp;nbsp;pool&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="500" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-37" value="&lt;div&gt;StrategyMgr 的初始化：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;StrategyMgr&lt;/span&gt;.Init()&amp;nbsp;&lt;/div&gt;&lt;div&gt;1.&amp;nbsp;解析配置文件中的&amp;nbsp;signal_configs&amp;nbsp;字段&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;遍历每个&amp;nbsp;signal_configs&amp;nbsp;下元素，得到每个strategy对应的更新时间点，得到对应的&amp;nbsp;ti1&lt;/div&gt;&lt;div&gt;3.&amp;nbsp;如果这个ti1 &amp;lt;= 6，即对应盘前时间点，那么表示这个策略只是个日频策略，更新到 hash_strategy_daily_&amp;nbsp;数据结构中&lt;/div&gt;&lt;div&gt;4.&amp;nbsp;更新&amp;nbsp;map_strategy_times_，维护 strategy&amp;nbsp;下有哪些 ti&amp;nbsp;需要更新&lt;/div&gt;&lt;div&gt;5.&amp;nbsp;更新 map_ti_strategies_，维护某个&amp;nbsp;ti&amp;nbsp;下有哪些&amp;nbsp;strategy&amp;nbsp;需要更新&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="600" width="320" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
