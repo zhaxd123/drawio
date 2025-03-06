@@ -78,10 +78,10 @@
         <mxCell id="i-nkXKOmJGmnzbzkcPUM-20" value="&lt;div&gt;on_minute1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;调用 PositionMgr::OnMinute1&amp;nbsp;触发仓位模块的1分钟回调函数&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="40" y="1320" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="i-nkXKOmJGmnzbzkcPUM-22" value="&lt;div&gt;PositionMgr::OnMinute1&lt;/div&gt;&lt;div&gt;使用当前传入的 ti，通过 StrategyMgr 找到这个 ti&amp;nbsp;对应的需要更新的策略集合，如果是空的，什么都不做&lt;/div&gt;&lt;div&gt;如果集合不是空的（即当前&amp;nbsp;ti&amp;nbsp;有策略需要更新），那么就通过&amp;nbsp;hash_products_&amp;nbsp;去遍历产品，将当前&amp;nbsp;ti&amp;nbsp;放到该产品的 Product::ti_queue 中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-22" value="&lt;div&gt;PositionMgr::OnMinute1&lt;/div&gt;&lt;div&gt;使用当前传入的 ti，通过 StrategyMgr 找到这个 ti&amp;nbsp;对应的需要更新的策略集合，如果是空的，什么都不做&lt;/div&gt;&lt;div&gt;如果集合不是空的（即当前&amp;nbsp;ti&amp;nbsp;有策略需要更新），那么就通过&amp;nbsp;hash_products_&amp;nbsp;去遍历产品，将当前&amp;nbsp;ti&amp;nbsp;放到该产品的 Product::ti_queue 中。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="40" y="1440" width="360" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="i-nkXKOmJGmnzbzkcPUM-23" value="注意，此处的&amp;nbsp; StrategyMgr&amp;nbsp; 查找的&amp;nbsp;ti&amp;nbsp;需要更新的&amp;nbsp;strategy&amp;nbsp;集合只是拿来简单判断流程，并没有向下进一步传入，当需要更新时，真正做的时将该&amp;nbsp;ti&amp;nbsp;放到了各个产品的&amp;nbsp;ti_queue&amp;nbsp;中异步处理" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="i-nkXKOmJGmnzbzkcPUM-23" value="注意：此处的&amp;nbsp; StrategyMgr&amp;nbsp; 查找出的 strategy&amp;nbsp;集合只是拿来简单判断流程，并没有向下进一步传入，当需要更新时，真正做的事情是将该&amp;nbsp;ti&amp;nbsp;放到了各个产品的&amp;nbsp;ti_queue&amp;nbsp;中异步处理" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-160" y="1440" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
