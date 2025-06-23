@@ -46,83 +46,92 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-18" value="通过股票列表和 T-1&amp;nbsp;的 exposure.txt,&amp;nbsp;通过 v5_barra.get_hf_data 得到当日的各股 barra&amp;nbsp;行业因子暴露&amp;nbsp; hf_barra" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
           <mxGeometry x="280" y="600" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-19" value="exposure.txt(T-1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-19" value="exposure.txt (T-1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="620" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-20" value="hf_barra （type:&lt;i&gt;dict&lt;/i&gt;）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="640" y="600" width="360" height="200" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-57" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640" y="560" width="360" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-23" value="行业编号" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="660" y="630" width="60" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-20" value="hf_barra （type:&lt;i&gt;dict&lt;/i&gt;）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry width="360" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-24" value="2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="660" width="60" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-23" value="行业编号" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="20" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-25" value="3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="690" width="60" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-24" value="2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="20" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-27" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="720" width="60" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-25" value="3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="20" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-28" value="45" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="750" width="60" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-27" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="20" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-29" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="660" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-28" value="45" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="20" y="150" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-30" value="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="752.5" y="660" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-29" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="80" y="60" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-31" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="785" y="660" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-30" value="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="112.5" y="60" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-32" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="817.5" y="660" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-31" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="145" y="60" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-33" value="nan" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="660" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-32" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="177.5" y="60" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-34" value="..." style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="882.5" y="660" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-33" value="nan" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="210" y="60" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-35" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="915" y="660" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-34" value="..." style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="242.5" y="60" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-36" value="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="947.5" y="660" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-35" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="275" y="60" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-37" value="各个股票在该行业的暴露系数" style="rounded=0;whiteSpace=wrap;html=1;container=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="720" y="630" width="260" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-36" value="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="307.5" y="60" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-38" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="690" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-37" value="各个股票在该行业的暴露系数" style="rounded=0;whiteSpace=wrap;html=1;container=0;fontStyle=1" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="80" y="30" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-39" value="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="752.5" y="690" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-38" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="80" y="90" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-40" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="785" y="690" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-39" value="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="112.5" y="90" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-41" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="817.5" y="690" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-40" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="145" y="90" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-42" value="nan" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="690" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-41" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="177.5" y="90" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-43" value="..." style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="882.5" y="690" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-42" value="nan" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="210" y="90" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-44" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="915" y="690" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-43" value="..." style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="242.5" y="90" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-45" value="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="947.5" y="690" width="32.5" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-44" value="0" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="275" y="90" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-54" value="..." style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="720" width="260" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-45" value="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="307.5" y="90" width="32.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-55" value="..." style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="750" width="260" height="30" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-54" value="..." style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="80" y="120" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-55" value="..." style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+          <mxGeometry x="80" y="150" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-58" value="拿到当前各股的close价格" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="720" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-59" value="拿到当前各股的 pre_close 价格" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="800" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
