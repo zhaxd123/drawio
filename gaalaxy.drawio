@@ -249,7 +249,7 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-115" value="0.031" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
           <mxGeometry x="180" y="60" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-116" value="拿到过去20天的交易日列表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-116" value="拿到过去21天的交易日列表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="1200" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-117" target="kYoe_I8JH5Og6u9T2peL-119">
@@ -258,11 +258,35 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-117" value="加载过去 41&amp;nbsp;天的天级因子数据&amp;nbsp;daily_factors" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="1280" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-118" value="调用&amp;nbsp;v5_pre_process&amp;nbsp;模块的 pre_process_v5_daily&amp;nbsp;方法" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1360" width="320" height="40" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-118" value="调用&amp;nbsp;v5_pre_process&amp;nbsp;模块的 pre_process_v5_daily&amp;nbsp;方法，得到经过处理后的矩阵&amp;nbsp;processed_daily_factors" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1360" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-119" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;daily_factors (type: ndarray)&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(天级因子数)82 * (股票数)4590 * (天数)41&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1260" width="360" height="80" as="geometry" />
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-119" target="kYoe_I8JH5Og6u9T2peL-118">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="1345" />
+              <mxPoint x="260" y="1345" />
+              <mxPoint x="260" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-119" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;daily_factors (type: ndarray)&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;(天级因子数)82 * (股票数)4590 * (天数)41&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1275" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-122" value="?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1380" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-123" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;processed_daily_factors&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;(type: ndarray)&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;(天级因子数)87 * (股票数)4590&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1375" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-125" target="kYoe_I8JH5Og6u9T2peL-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-125" value="拿到过去 21 天的 M5&amp;nbsp;粒度的历史指标数据&lt;div&gt;all_history_m5_indicator&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1470" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-126" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;all_history_m5_indicator&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;(type: ndarray)&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;(指标数)477 * (股票数)4590 * (总时点数 = 21*48)1008&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1475" width="360" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
