@@ -4,53 +4,74 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-4" value="加载股票列表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-4" value="加载股票列表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="40" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-5" target="kYoe_I8JH5Og6u9T2peL-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-5" value="all_a_ashare.txt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-6" value="加载天级因子列表，指示当日需要用的天级因子列表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-6" value="加载天级因子列表，指示当日需要用的天级因子列表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="120" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-7" target="kYoe_I8JH5Og6u9T2peL-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-7" value="daily_factor_required.json" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="120" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-8" value="加载日内因子列表，指示当日内不同时段需要用到的指标列表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-8" value="加载日内因子列表，指示当日内不同时段需要用到的指标列表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="200" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-9" target="kYoe_I8JH5Og6u9T2peL-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-9" value="factor_required.json" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="200" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-10" value="加载指标列表，表示每个时段需要使用哪些指标" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-10" value="加载指标列表，表示每个时段需要使用哪些指标" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="280" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-11" target="kYoe_I8JH5Og6u9T2peL-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-11" value="indicator_required.json" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="280" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-13" value="使用 T-1 交易日配置信息获取固定有效位&amp;nbsp;fixed_universe" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-13" value="使用 T-1 交易日配置信息获取固定有效位&amp;nbsp;fixed_universe" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="360" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-14" target="kYoe_I8JH5Og6u9T2peL-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-14" value="day_factors.csv (T-1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="360" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-15" value="拿到当天的调价因子&amp;nbsp;adjfactor" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-15" value="拿到当天的调价因子&amp;nbsp;adjfactor" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="440" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-16" target="kYoe_I8JH5Og6u9T2peL-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-16" value="day_factors.csv (T)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="440" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-17" value="对于当前截面，获取时间 (94500000)&amp;nbsp;和&amp;nbsp;时段类型 (TD)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-17" value="对于当前截面，获取时间 (94500000)&amp;nbsp;和&amp;nbsp;时段类型 (TD)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="520" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-18" value="通过股票列表和 T-1&amp;nbsp;的 exposure.txt,&amp;nbsp;通过 v5_barra.get_hf_data 得到当日的各股 barra&amp;nbsp;行业因子暴露&amp;nbsp; hf_barra" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-18" value="通过股票列表和 T-1&amp;nbsp;的 exposure.txt,&amp;nbsp;通过 v5_barra.get_hf_data 得到当日的各股 barra&amp;nbsp;行业因子暴露&amp;nbsp; hf_barra" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="600" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-19" target="kYoe_I8JH5Og6u9T2peL-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-19" value="exposure.txt (T-1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="620" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-57" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="640" y="560" width="360" height="200" as="geometry" />
+          <mxGeometry x="680" y="480" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-20" value="hf_barra （type:&lt;i&gt;dict&lt;/i&gt;）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
           <mxGeometry width="360" height="200" as="geometry" />
@@ -127,8 +148,32 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-55" value="..." style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
           <mxGeometry x="80" y="150" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-58" value="拿到当前各股的 close 价格&amp;nbsp;和&amp;nbsp;preclose&amp;nbsp;价格" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-60" value="计算当前分钟截面的&amp;nbsp;universe" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="800" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-61" target="kYoe_I8JH5Og6u9T2peL-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-61" value="当前 close&amp;nbsp;价格" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-62" target="kYoe_I8JH5Og6u9T2peL-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-62" value="当前 preclose&amp;nbsp;价格" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-63" target="kYoe_I8JH5Og6u9T2peL-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-63" value="根据股票代码生成每支票的涨跌幅门限列表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="720" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-65" target="kYoe_I8JH5Og6u9T2peL-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-65" value="涨跌幅门限列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="680" y="720" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
