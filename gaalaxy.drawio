@@ -321,6 +321,12 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-138" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;today_m5_factor&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;(type: ndarray)&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;(因子数)500 * (股票数)4590 *&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(153, 0, 0); text-align: left; background-color: transparent;&quot;&gt;(今天时点数)3&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="680" y="1880" width="360" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-139" value="拼接历史 M5 因子和当日 M5 因子，得到：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;all_factor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1960" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-140" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;all_factor&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;(type: ndarray)&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;(因子数)500 * (股票数)4590 *&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(153, 0, 0); text-align: left; background-color: transparent;&quot;&gt;(历史+ 今日内时点数)1011&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1965" width="360" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
