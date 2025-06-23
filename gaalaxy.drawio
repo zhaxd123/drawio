@@ -288,11 +288,26 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-126" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;all_history_m5_indicator&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;(type: ndarray)&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;(指标数)477 * (股票数)4590 * (总时点数 = 21*48)1008&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="680" y="1475" width="360" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-128" target="kYoe_I8JH5Og6u9T2peL-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-128" value="拿到今天的 M5&amp;nbsp;粒度的指标数据&lt;div&gt;today_m5_indicator&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1560" width="320" height="60" as="geometry" />
+          <mxGeometry x="280" y="1550" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-129" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;today_m5_indicator&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;(type: ndarray)&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;(指标数)477 * (股票数)4590 * (今天时点数)3&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1560" width="360" height="50" as="geometry" />
+          <mxGeometry x="680" y="1555" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-131" value="历史的 M5 return，通过 adj_close_m5 的 pct_change 计算得到： history_m5_return" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1640" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-132" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;history_m5_return&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;(type: ndarray)&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;(股票数)4590 * (总时点数 = 21*48)1008&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1645" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-133" value="当日的 M5 return，通过 adj_close_m5 的 pct_change 计算得到： today_m5_return" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1720" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-134" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;today_m5_return&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;(type: ndarray)&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(153, 0, 0);&quot;&gt;(股票数)4590 * (今天时点数)3&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1725" width="360" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
