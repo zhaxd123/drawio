@@ -43,6 +43,9 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-17" value="对于当前截面，获取时间 (94500000)&amp;nbsp;和&amp;nbsp;时段类型 (TD)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
           <mxGeometry x="280" y="520" width="320" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-18" value="通过股票列表和 T-1&amp;nbsp;的 exposure.txt,&amp;nbsp;通过 v5_barra.get_hf_data 得到当日的各股 barra&amp;nbsp;行业因子暴露&amp;nbsp; hf_barra" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="320" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
