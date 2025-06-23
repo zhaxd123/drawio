@@ -22,7 +22,7 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-9" value="factor_required.json" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="200" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-10" value="加载指标列表" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-10" value="加载指标列表，表示每个时段需要使用哪些指标" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="360" y="280" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-11" value="indicator_required.json" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
