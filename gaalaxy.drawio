@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
   <diagram name="第 1 页" id="XfOoIQ8wgLelwQRDHksd">
-    <mxGraphModel dx="1251" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1139" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,13 +155,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-61" value="当前 close&amp;nbsp;价格" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="40" y="840" width="200" height="40" as="geometry" />
+          <mxGeometry x="40" y="830" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-62" target="kYoe_I8JH5Og6u9T2peL-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-62" value="当前 preclose&amp;nbsp;价格" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="40" y="760" width="200" height="40" as="geometry" />
+          <mxGeometry x="40" y="770" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-63" target="kYoe_I8JH5Og6u9T2peL-65">
           <mxGeometry relative="1" as="geometry" />
@@ -174,6 +174,77 @@
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-65" value="涨跌幅门限列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="680" y="720" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-77" value="创建权重计算模块&amp;nbsp;model_score&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="920" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-78" target="kYoe_I8JH5Og6u9T2peL-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-78" value="score.json" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="890" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-79" target="kYoe_I8JH5Og6u9T2peL-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-79" value="T-1.signalScore.b.txt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="950" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-82" value="更新最新价格到权重计算模块中" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1000" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-83" target="kYoe_I8JH5Og6u9T2peL-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-83" value="当前 close&amp;nbsp;价格" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-85" target="kYoe_I8JH5Og6u9T2peL-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-85" value="day_factors.csv (T)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1060" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-87" value="调用权重计算模块的&amp;nbsp;get_model_weight(当前时间) 方法，得到模型权重&amp;nbsp;model_weight&amp;nbsp;字典，维护当前时点的所有模型权重值" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1120" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-88" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="680" y="960" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-89" value="model_weight （type:&lt;i&gt;dict&lt;/i&gt;）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+          <mxGeometry width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-90" value="模型ID" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+          <mxGeometry x="20" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-91" value="td_factor_model_101" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+          <mxGeometry x="20" y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-92" value="td_factor_model_105" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+          <mxGeometry x="20" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-93" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+          <mxGeometry x="20" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-94" value="td_factor_model_98" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+          <mxGeometry x="20" y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-103" value="模型权重" style="rounded=0;whiteSpace=wrap;html=1;container=0;fontStyle=1" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+          <mxGeometry x="180" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-112" value="..." style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+          <mxGeometry x="180" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-113" value="0.047" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+          <mxGeometry x="180" y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-114" value="0.037" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+          <mxGeometry x="180" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-115" value="0.031" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+          <mxGeometry x="180" y="60" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
