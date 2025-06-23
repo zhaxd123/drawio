@@ -70,7 +70,7 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-19" value="exposure.txt (T-1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="620" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-57" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-57" value="" style="group;rounded=0;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="680" y="480" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-20" value="hf_barra （type:&lt;i&gt;dict&lt;/i&gt;）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
@@ -207,8 +207,11 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-85" value="day_factors.csv (T)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="1060" width="200" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-87" target="kYoe_I8JH5Og6u9T2peL-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-87" value="调用权重计算模块的&amp;nbsp;get_model_weight(当前时间) 方法，得到模型权重&amp;nbsp;model_weight&amp;nbsp;字典，维护当前时点的所有模型权重值" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1120" width="320" height="60" as="geometry" />
+          <mxGeometry x="280" y="1080" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-88" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="680" y="960" width="360" height="200" as="geometry" />
@@ -245,6 +248,21 @@
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-115" value="0.031" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
           <mxGeometry x="180" y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-116" value="拿到过去20天的交易日列表" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1200" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kYoe_I8JH5Og6u9T2peL-117" target="kYoe_I8JH5Og6u9T2peL-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-117" value="加载过去 41&amp;nbsp;天的天级因子数据&amp;nbsp;daily_factors" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1280" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-118" value="调用&amp;nbsp;v5_pre_process&amp;nbsp;模块的 pre_process_v5_daily&amp;nbsp;方法" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1360" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-119" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;daily_factors (type: ndarray)&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(天级因子数)82 * (股票数)4590 * (天数)41&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1260" width="360" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
