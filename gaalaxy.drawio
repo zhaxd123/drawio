@@ -73,7 +73,7 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-57" value="" style="group;rounded=0;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="680" y="480" width="360" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-20" value="hf_barra （type:&lt;i&gt;dict&lt;/i&gt;）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-20" value="&lt;b&gt;hf_barra （type:&lt;i&gt;dict&lt;/i&gt;）&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
           <mxGeometry width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-23" value="行业编号" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-57">
@@ -216,7 +216,7 @@
         <mxCell id="kYoe_I8JH5Og6u9T2peL-88" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="680" y="960" width="360" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="kYoe_I8JH5Og6u9T2peL-89" value="model_weight （type:&lt;i&gt;dict&lt;/i&gt;）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
+        <mxCell id="kYoe_I8JH5Og6u9T2peL-89" value="&lt;b&gt;model_weight （type:&lt;i&gt;dict&lt;/i&gt;）&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
           <mxGeometry width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="kYoe_I8JH5Og6u9T2peL-90" value="模型ID" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="kYoe_I8JH5Og6u9T2peL-88">
