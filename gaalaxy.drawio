@@ -340,7 +340,7 @@
           <mxGeometry x="680" y="2200" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DBd82-l7cy3-Q9P9iBBS-5" value="将每个子段的 processed_data&lt;b&gt;&amp;nbsp;&lt;/b&gt;堆叠起来，得到合并后的处理过的历史指标数据 history_processed_indicator_np" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;fillColor=#ffe6cc;strokeColor=#000000;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="280" y="2190" width="320" height="120" as="geometry" />
+          <mxGeometry x="280" y="2190" width="320" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
