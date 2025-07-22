@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6" pages="6">
   <diagram name="代码流程走读" id="XfOoIQ8wgLelwQRDHksd">
     <mxGraphModel dx="1139" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -371,7 +371,7 @@
         <mxCell id="fnlY6zHMqXQDubt2Dk3k-7" value="update_labels.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="320" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fnlY6zHMqXQDubt2Dk3k-8" value="数据集处理生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fnlY6zHMqXQDubt2Dk3k-8" value="数据集预处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="370" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="fnlY6zHMqXQDubt2Dk3k-9" value="update_matrix&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.py&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -392,6 +392,68 @@
         <mxCell id="fnlY6zHMqXQDubt2Dk3k-16" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;trainer_tf_group_pointer.py&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="570" width="160" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zNYuigR5IoL-ICcO7kUH" name="Part2 因子处理流程">
+    <mxGraphModel dx="1251" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PHV888oVI3VhZuzbLBA3-1" value="clickhouse" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="360" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PHV888oVI3VhZuzbLBA3-5" value="data service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PHV888oVI3VhZuzbLBA3-6" value="查询" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PHV888oVI3VhZuzbLBA3-7" value="生成股票索引文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PHV888oVI3VhZuzbLBA3-9" value="InstrumentIndex.csv" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PHV888oVI3VhZuzbLBA3-10" value="instrument_map.json" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=18;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PHV888oVI3VhZuzbLBA3-11" value="生成日期索引文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PHV888oVI3VhZuzbLBA3-12" value="DateIndex.csv" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PHV888oVI3VhZuzbLBA3-13" value="date_map.json" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=18;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PHV888oVI3VhZuzbLBA3-14" value="查询 meta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="w0NaEf31JnQt2gY90bg3" name="Part2 Label 处理流程">
+    <mxGraphModel dx="1251" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="muLRnDJR4_LTmwi7meSD" name="Part2 数据集预处理">
+    <mxGraphModel dx="1251" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wd8WuFwscjpnG5v7n_vQ" name="Part2 模型训练">
+    <mxGraphModel dx="1251" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
