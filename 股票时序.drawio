@@ -5,10 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0HW1WMgGXBD1TG098CHV-1" value="FBTimeSeriesSignal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="360" height="40" as="geometry" />
+          <mxGeometry x="40" y="40" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0HW1WMgGXBD1TG098CHV-2" value="构造函数&lt;div&gt;1.&amp;nbsp;读取配置：&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;lt;frequency&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;lt;close_price_frequency&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;lt;cage_frequency&amp;gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;lt;publish_ip&amp;gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;lt;publish_port&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;lt;cc_path&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;使用&amp;nbsp;ip&amp;nbsp;port&amp;nbsp;初始化 AnyPublisher any_pub&lt;/div&gt;&lt;div&gt;3.&amp;nbsp;初始化：从 CC-P&amp;nbsp;数据库读取万得数据库的前一天的 adjfactor，到二维数组 adjfactor_past&amp;nbsp;中。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="360" height="200" as="geometry" />
+          <mxGeometry x="40" y="120" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0HW1WMgGXBD1TG098CHV-3" value="&lt;div&gt;on_snapshot:&lt;/div&gt;&lt;div&gt;1.&amp;nbsp;当日第一次触发的时候，发送股票数量。 - SendStockNum&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="400" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
