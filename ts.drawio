@@ -591,6 +591,9 @@
         <mxCell id="GsNSmGKv5-FBSopykaBw-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;strokeColor=#3399FF;" edge="1" parent="GsNSmGKv5-FBSopykaBw-150" source="GsNSmGKv5-FBSopykaBw-78" target="GsNSmGKv5-FBSopykaBw-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GsNSmGKv5-FBSopykaBw-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;endArrow=oval;endFill=1;" edge="1" parent="GsNSmGKv5-FBSopykaBw-150" source="GsNSmGKv5-FBSopykaBw-78" target="GsNSmGKv5-FBSopykaBw-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GsNSmGKv5-FBSopykaBw-78" value="AlgoManager" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="GsNSmGKv5-FBSopykaBw-150">
           <mxGeometry x="1002" y="761" width="440" height="240" as="geometry" />
         </mxCell>
