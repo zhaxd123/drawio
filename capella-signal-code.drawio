@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9oycjczZTCBmbCkAmQaE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="FactorEnginePolicy::OnStarted" vertex="1">
-          <mxGeometry height="680" width="320" x="40" y="80" as="geometry" />
+          <mxGeometry height="840" width="320" x="40" y="80" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="InitSpdLog" vertex="1">
           <mxGeometry height="40" width="280" x="60" y="120" as="geometry" />
@@ -17,13 +17,13 @@
           <mxGeometry height="40" width="280" x="60" y="240" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="InitProductMgr" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="470" as="geometry" />
+          <mxGeometry height="40" width="280" x="60" y="720" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FactorEnginePolicy::subscribe_market" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="530" as="geometry" />
+          <mxGeometry height="40" width="280" x="60" y="780" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="如果配置了&amp;nbsp;is_mock_time，启动模拟回放线程" vertex="1">
-          <mxGeometry height="60" width="280" x="60" y="590" as="geometry" />
+          <mxGeometry height="60" width="280" x="60" y="840" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="日志初始化" vertex="1">
           <mxGeometry height="40" width="160" x="400" y="120" as="geometry" />
@@ -37,17 +37,14 @@
         <mxCell id="9oycjczZTCBmbCkAmQaE-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置初始化" vertex="1">
           <mxGeometry height="40" width="160" x="400" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="9oycjczZTCBmbCkAmQaE-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
-          <mxGeometry height="140" width="570" x="10" y="300" as="geometry" />
-        </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SignalDataCache::InitDataMap" vertex="1">
           <mxGeometry height="40" width="280" x="60" y="320" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SignalLoaderMgr::Init" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="380" as="geometry" />
+          <mxGeometry height="40" width="280" x="60" y="630" as="geometry" />
         </mxCell>
-        <mxCell id="9oycjczZTCBmbCkAmQaE-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="信号初始化" vertex="1">
-          <mxGeometry height="40" width="160" x="400" y="340" as="geometry" />
+        <mxCell id="9oycjczZTCBmbCkAmQaE-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;初始化信号数据缓存的数据结构 ，为后续存储和获取信号数据做准备。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 遍历所有策略配置 ：遍历 config::project_config.signal_configs 中的每个信号配置项&lt;/div&gt;&lt;div&gt;2. 初始化策略的时间索引映射 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 对于每个策略名称（ strategyName ），遍历所有时间间隔（ ti_m1_all ）&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 为每个有效的时间索引（ ti ）初始化 m_mapData[strategyName][ti] ，初始值为 nullptr&lt;/div&gt;&lt;div&gt;3. 初始化前持仓数据映射 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 为每个策略初始化 m_mapPrePosition[strategyName] ，初始值为 nullptr&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;这个函数在系统启动时调用，建立起策略名称 → 时间索引 → 信号数据的二级映射结构，以及策略名称 → 前持仓数据的一级映射结构，为后续的信号数据存储（ DataStore ）和查询（ GetSingleData 、 GetPrePositionData ）提供基础框架。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="570" x="400" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
