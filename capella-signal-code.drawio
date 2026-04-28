@@ -1,35 +1,53 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="IdcmZR77M_khHHGqBgbw">
-    <mxGraphModel dx="1542" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1814" dy="1009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9oycjczZTCBmbCkAmQaE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="FactorEnginePolicy::OnStarted" vertex="1">
-          <mxGeometry height="540" width="320" x="40" y="80" as="geometry" />
+          <mxGeometry height="680" width="320" x="40" y="80" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="InitSpdLog" vertex="1">
           <mxGeometry height="40" width="280" x="60" y="120" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="config::LoadConfigs" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="180" as="geometry" />
+          <mxGeometry height="40" width="280" x="60" y="190" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="config::contract_roll_config.LoadFromCSV" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="230" as="geometry" />
-        </mxCell>
-        <mxCell id="9oycjczZTCBmbCkAmQaE-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SignalDataCache::InitDataMap" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="290" as="geometry" />
-        </mxCell>
-        <mxCell id="9oycjczZTCBmbCkAmQaE-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SignalLoaderMgr::Init" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="340" as="geometry" />
+          <mxGeometry height="40" width="280" x="60" y="240" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="InitProductMgr" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="410" as="geometry" />
-        </mxCell>
-        <mxCell id="9oycjczZTCBmbCkAmQaE-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FactorEnginePolicy::subscribe_market" vertex="1">
           <mxGeometry height="40" width="280" x="60" y="470" as="geometry" />
         </mxCell>
+        <mxCell id="9oycjczZTCBmbCkAmQaE-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FactorEnginePolicy::subscribe_market" vertex="1">
+          <mxGeometry height="40" width="280" x="60" y="530" as="geometry" />
+        </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="如果配置了&amp;nbsp;is_mock_time，启动模拟回放线程" vertex="1">
-          <mxGeometry height="60" width="280" x="60" y="530" as="geometry" />
+          <mxGeometry height="60" width="280" x="60" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="9oycjczZTCBmbCkAmQaE-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="日志初始化" vertex="1">
+          <mxGeometry height="40" width="160" x="400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9oycjczZTCBmbCkAmQaE-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="110" width="570" x="10" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9oycjczZTCBmbCkAmQaE-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="60" width="570" x="10" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9oycjczZTCBmbCkAmQaE-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置初始化" vertex="1">
+          <mxGeometry height="40" width="160" x="400" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9oycjczZTCBmbCkAmQaE-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="140" width="570" x="10" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9oycjczZTCBmbCkAmQaE-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SignalDataCache::InitDataMap" vertex="1">
+          <mxGeometry height="40" width="280" x="60" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9oycjczZTCBmbCkAmQaE-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SignalLoaderMgr::Init" vertex="1">
+          <mxGeometry height="40" width="280" x="60" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9oycjczZTCBmbCkAmQaE-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="信号初始化" vertex="1">
+          <mxGeometry height="40" width="160" x="400" y="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
