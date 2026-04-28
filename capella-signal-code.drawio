@@ -20,10 +20,10 @@
           <mxGeometry height="40" width="280" x="60" y="880" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FactorEnginePolicy::subscribe_market" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="940" as="geometry" />
+          <mxGeometry height="40" width="280" x="60" y="1210" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="如果配置了&amp;nbsp;is_mock_time，启动模拟回放线程" vertex="1">
-          <mxGeometry height="60" width="280" x="60" y="1000" as="geometry" />
+          <mxGeometry height="60" width="280" x="60" y="1270" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="日志初始化" vertex="1">
           <mxGeometry height="40" width="160" x="400" y="120" as="geometry" />
@@ -48,6 +48,9 @@
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;初始化信号加载管理器 ，为系统准备信号文件的加载和监控能力。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 获取交易日信息 ：从配置中获取当前交易日（ tradingDay ）&lt;/div&gt;&lt;div&gt;2. 创建信号加载器 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 遍历所有策略配置（ signal_configs ）&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 为每个策略创建一个 OriginSignalLoader 实例，存入 m_mapCollector 映射表&lt;/div&gt;&lt;div&gt;3. 并行加载当日文件 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 创建多个线程，每个线程调用对应策略的 LoadTodaysFile() 方法&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 等待所有线程完成当日信号文件的加载&lt;/div&gt;&lt;div&gt;4. 启动信号加载器 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 调用每个 OriginSignalLoader 的 Start() 方法&lt;/div&gt;&lt;div&gt;5. 启动监控线程 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 创建工作线程，运行 Start() 方法，该方法会使用 inotify 和 epoll 监控信号文件目录的变化&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;这个函数在系统启动时调用，完成信号加载管理器的初始化，包括加载历史文件和启动实时文件监控，为后续的信号数据处理提供基础。&lt;/div&gt;" vertex="1">
           <mxGeometry height="250" width="570" x="400" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="9oycjczZTCBmbCkAmQaE-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;InitProductMgr 的核心作用是 初始化产品管理器 ，为所有产品创建实例并启动相应的处理线程。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 创建时间队列 ：初始化线程安全的时间消息队列 time_queue&lt;/div&gt;&lt;div&gt;2. 从持久化文件恢复 ：调用 InitFromBin() 从存储目录加载已保存的产品状态（如果存在）&lt;/div&gt;&lt;div&gt;3. 遍历配置并创建产品 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 遍历所有产品配置（ product_configs ）&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 如果是新产品（不在 name_product_map 中），创建 Product 实例并调用其 Init() 方法&lt;/div&gt;&lt;div&gt;4. 启动工作线程 ：创建工作线程运行 ThreadFunc() ，该线程负责从队列接收时间消息并触发所有产品的 MinuteTrigger&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Product::Init() 内部还会：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;- 创建线程安全的操作队列&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;- 查找并加载产品配置&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;- 初始化策略管理器（ strategy_mgr.Init() ）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;- 启动产品自身的工作线程&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;这个函数在系统启动时调用，完成产品管理器及其管理的所有产品的初始化，为后续的分钟级任务处理做好准备。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="570" x="400" y="880" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
