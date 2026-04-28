@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="IdcmZR77M_khHHGqBgbw">
-    <mxGraphModel dx="1814" dy="1009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1285" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9oycjczZTCBmbCkAmQaE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="FactorEnginePolicy::OnStarted" vertex="1">
-          <mxGeometry height="840" width="320" x="40" y="80" as="geometry" />
+          <mxGeometry height="1280" width="320" x="40" y="80" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="InitSpdLog" vertex="1">
           <mxGeometry height="40" width="280" x="60" y="120" as="geometry" />
@@ -17,13 +17,13 @@
           <mxGeometry height="40" width="280" x="60" y="240" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="InitProductMgr" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="720" as="geometry" />
+          <mxGeometry height="40" width="280" x="60" y="880" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FactorEnginePolicy::subscribe_market" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="780" as="geometry" />
+          <mxGeometry height="40" width="280" x="60" y="940" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="如果配置了&amp;nbsp;is_mock_time，启动模拟回放线程" vertex="1">
-          <mxGeometry height="60" width="280" x="60" y="840" as="geometry" />
+          <mxGeometry height="60" width="280" x="60" y="1000" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="日志初始化" vertex="1">
           <mxGeometry height="40" width="160" x="400" y="120" as="geometry" />
@@ -41,10 +41,13 @@
           <mxGeometry height="40" width="280" x="60" y="320" as="geometry" />
         </mxCell>
         <mxCell id="9oycjczZTCBmbCkAmQaE-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SignalLoaderMgr::Init" vertex="1">
-          <mxGeometry height="40" width="280" x="60" y="630" as="geometry" />
+          <mxGeometry height="40" width="280" x="60" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="9oycjczZTCBmbCkAmQaE-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;初始化信号数据缓存的数据结构 ，为后续存储和获取信号数据做准备。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 遍历所有策略配置 ：遍历 config::project_config.signal_configs 中的每个信号配置项&lt;/div&gt;&lt;div&gt;2. 初始化策略的时间索引映射 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 对于每个策略名称（ strategyName ），遍历所有时间间隔（ ti_m1_all ）&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 为每个有效的时间索引（ ti ）初始化 m_mapData[strategyName][ti] ，初始值为 nullptr&lt;/div&gt;&lt;div&gt;3. 初始化前持仓数据映射 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 为每个策略初始化 m_mapPrePosition[strategyName] ，初始值为 nullptr&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;这个函数在系统启动时调用，建立起策略名称 → 时间索引 → 信号数据的二级映射结构，以及策略名称 → 前持仓数据的一级映射结构，为后续的信号数据存储（ DataStore ）和查询（ GetSingleData 、 GetPrePositionData ）提供基础框架。&lt;/div&gt;" vertex="1">
+        <mxCell id="9oycjczZTCBmbCkAmQaE-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;初始化信号数据缓存的数据结构 ，为后续存储和获取信号数据做准备。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 遍历所有策略配置 ：遍历 config::project_config.signal_configs 中的每个信号配置项&lt;/div&gt;&lt;div&gt;2. 初始化策略的时间索引映射 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 对于每个策略名称（ strategyName ），遍历所有时间间隔（ ti_m1_all ）&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 为每个有效的时间索引（ ti ）初始化 m_mapData[strategyName][ti] ，初始值为 nullptr&lt;/div&gt;&lt;div&gt;3. 初始化前持仓数据映射 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 为每个策略初始化 m_mapPrePosition[strategyName] ，初始值为 nullptr&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;这个函数在系统启动时调用，建立起策略名称 → 时间索引 → 信号数据的二级映射结构，以及策略名称 → 前持仓数据的一级映射结构，为后续的信号数据存储（ DataStore ）和查询（ GetSingleData 、 GetPrePositionData ）提供基础框架。&lt;/div&gt;" vertex="1">
           <mxGeometry height="200" width="570" x="400" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9oycjczZTCBmbCkAmQaE-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;初始化信号加载管理器 ，为系统准备信号文件的加载和监控能力。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 获取交易日信息 ：从配置中获取当前交易日（ tradingDay ）&lt;/div&gt;&lt;div&gt;2. 创建信号加载器 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 遍历所有策略配置（ signal_configs ）&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 为每个策略创建一个 OriginSignalLoader 实例，存入 m_mapCollector 映射表&lt;/div&gt;&lt;div&gt;3. 并行加载当日文件 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 创建多个线程，每个线程调用对应策略的 LoadTodaysFile() 方法&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 等待所有线程完成当日信号文件的加载&lt;/div&gt;&lt;div&gt;4. 启动信号加载器 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 调用每个 OriginSignalLoader 的 Start() 方法&lt;/div&gt;&lt;div&gt;5. 启动监控线程 ：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- 创建工作线程，运行 Start() 方法，该方法会使用 inotify 和 epoll 监控信号文件目录的变化&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;这个函数在系统启动时调用，完成信号加载管理器的初始化，包括加载历史文件和启动实时文件监控，为后续的信号数据处理提供基础。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="570" x="400" y="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
