@@ -1800,7 +1800,7 @@
           <mxGeometry height="80" width="120" x="560" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;verticalAlign=top;" value="虚拟单结束逻辑" vertex="1">
-          <mxGeometry height="140" width="600" x="720" y="930" as="geometry" />
+          <mxGeometry height="140" width="1000" x="720" y="930" as="geometry" />
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="更新 unit 仓位&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;检查并更新所有 unittask 完成情况&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="760" y="960" as="geometry" />
@@ -1810,6 +1810,15 @@
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="这里想一想，首先这块代码有问题，其实根本进不去。设计角度来说，其实也不需要通过 fill 和 volume 去判断是否是以撤单了结吧？" vertex="1">
           <mxGeometry height="40" width="410" x="750" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="如果该 unit 存在于 挂单列表 或 撤单列表中，将其移除&lt;div&gt;如果移除后列表为空，&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="1160" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="如果&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="200" x="1400" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="需要搞个 flag_newtarget 吗？所有 flag_newtarget 似乎都可以转换为对撤单列表是否为空的判断？" vertex="1">
+          <mxGeometry height="40" width="410" x="1220" y="1080" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
