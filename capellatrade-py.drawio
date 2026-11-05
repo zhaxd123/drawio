@@ -1558,7 +1558,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Qd6y4hhI0-zOE10AtNVR" name="第 9 页">
-    <mxGraphModel dx="848" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2120" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1595,8 +1595,11 @@
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="如果需要，发起撤单&lt;div&gt;置位 cancelflag&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="720" y="40" as="geometry" />
         </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-103" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;dashed=1;dashPattern=8 8;" target="Szxx1c7cNjfv7xyaB-G7-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="等待" vertex="1">
-          <mxGeometry height="80" width="120" x="880" y="40" as="geometry" />
+          <mxGeometry height="80" width="120" x="2040" y="40" as="geometry" />
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="如果不需要撤单" vertex="1">
           <mxGeometry height="80" width="120" x="720" y="160" as="geometry" />
@@ -1634,7 +1637,7 @@
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-28" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Szxx1c7cNjfv7xyaB-G7-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="挑选当前任务" vertex="1">
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="挑选任务" vertex="1">
           <mxGeometry height="80" width="160" x="1640" y="160" as="geometry" />
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-30" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-29">
@@ -1643,7 +1646,7 @@
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="确定全局的压力/进度状态" vertex="1">
           <mxGeometry height="80" width="160" x="1840" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="Szxx1c7cNjfv7xyaB-G7-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="等待" vertex="1">
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="#" vertex="1">
           <mxGeometry height="80" width="120" x="2040" y="160" as="geometry" />
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-38" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-37">
@@ -1742,7 +1745,7 @@
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="结束" vertex="1">
           <mxGeometry height="80" width="120" x="880" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="Szxx1c7cNjfv7xyaB-G7-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="结束" vertex="1">
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="#" vertex="1">
           <mxGeometry height="80" width="120" x="1560" y="600" as="geometry" />
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-71" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-70">
@@ -1760,7 +1763,10 @@
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-59" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Szxx1c7cNjfv7xyaB-G7-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="结束" vertex="1">
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-129" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;dashed=1;" target="Szxx1c7cNjfv7xyaB-G7-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="等待" vertex="1">
           <mxGeometry height="80" width="120" x="1400" y="760" as="geometry" />
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-77" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-75">
@@ -1787,9 +1793,6 @@
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-79" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;div&gt;当前需要撤单&lt;div&gt;这里再做一次补撤&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="720" y="1080" as="geometry" />
         </mxCell>
-        <mxCell id="Szxx1c7cNjfv7xyaB-G7-88" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-87">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-80" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="如果所有真实单结束，则虚拟单结束" vertex="1">
           <mxGeometry height="80" width="120" x="560" y="960" as="geometry" />
         </mxCell>
@@ -1799,11 +1802,20 @@
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="如果虚拟单尚未结束" vertex="1">
           <mxGeometry height="80" width="120" x="560" y="1080" as="geometry" />
         </mxCell>
-        <mxCell id="Szxx1c7cNjfv7xyaB-G7-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;verticalAlign=top;" value="虚拟单结束逻辑" vertex="1">
-          <mxGeometry height="140" width="1000" x="720" y="930" as="geometry" />
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-105" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="虚拟单结束逻辑" vertex="1">
+          <mxGeometry height="140" width="960" x="720" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-96" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-89">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="更新 unit 仓位&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;检查并更新所有 unittask 完成情况&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="760" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-97" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-91">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="根据 unit 完成情况&lt;div&gt;更新算法单的了结方式&lt;/div&gt;&lt;div&gt;如果是撤单了结，置结果为 CANCELLED&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="200" x="920" y="960" as="geometry" />
@@ -1811,14 +1823,111 @@
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="这里想一想，首先这块代码有问题，其实根本进不去。设计角度来说，其实也不需要通过 fill 和 volume 去判断是否是以撤单了结吧？" vertex="1">
           <mxGeometry height="40" width="410" x="750" y="880" as="geometry" />
         </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-98" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="如果该 unit 存在于 报单列表 或 撤单列表中，将其移除" vertex="1">
           <mxGeometry height="80" width="200" x="1160" y="960" as="geometry" />
         </mxCell>
-        <mxCell id="Szxx1c7cNjfv7xyaB-G7-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="移除后，如果撤单列表为空&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;flag_newtarget&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; 置为1，即允许建任务，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;如果报单也是空的，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;那么&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;算法单置为terminated&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-99" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="移除后，如果撤单列表为空&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;flag_newtarget&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; 置为1，即允许建任务，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;如果报单也是空的，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;那么&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;算法单置为 结束&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="240" x="1400" y="960" as="geometry" />
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="需要搞个 flag_newtarget 吗？所有 flag_newtarget 似乎都可以转换为对撤单列表是否为空的判断？" vertex="1">
           <mxGeometry height="40" width="410" x="1220" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-102" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-100">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2240" y="1000" />
+              <mxPoint x="2240" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-94" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="当前状态为 NEW_TARGET" vertex="1">
+          <mxGeometry height="80" width="120" x="1720" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-88" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" value="开始构建任务&amp;nbsp;tryBuildTask" vertex="1">
+          <mxGeometry height="80" width="120" x="2280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-108" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-111" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-104" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="当前状态不为 NEW_TARGET" vertex="1">
+          <mxGeometry height="80" width="120" x="1720" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-109" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-106" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="如果算法单尚未结束" vertex="1">
+          <mxGeometry height="80" width="120" x="1880" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-107" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="#" vertex="1">
+          <mxGeometry height="80" width="120" x="2040" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-114" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-117" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-110" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="如果算法单结束" vertex="1">
+          <mxGeometry height="80" width="120" x="1880" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-115" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-112" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="当前状态为 REACH_LIMIT" vertex="1">
+          <mxGeometry height="80" width="120" x="2040" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-113" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="#" vertex="1">
+          <mxGeometry height="80" width="120" x="2200" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-121" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-116" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="当前状态为&amp;nbsp;&lt;div&gt;PROCESSING&lt;/div&gt;&lt;div&gt;HARDSWITCHING&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="2040" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-122" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-118" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="更新算法单下的&lt;div&gt;&lt;b&gt;未完成账户列表&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="2200" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-124" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="挑选任务" vertex="1">
+          <mxGeometry height="80" width="120" x="2360" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-127" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-123" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="状态统一置为 PROCESSING" vertex="1">
+          <mxGeometry height="80" width="120" x="2520" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" value="报单逻辑" vertex="1">
+          <mxGeometry height="80" width="130" x="2880" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-128" edge="1" parent="1" source="Szxx1c7cNjfv7xyaB-G7-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Szxx1c7cNjfv7xyaB-G7-125">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2820" y="1360" />
+              <mxPoint x="2820" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="如果需要改价" vertex="1">
+          <mxGeometry height="80" width="120" x="2680" y="1320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
