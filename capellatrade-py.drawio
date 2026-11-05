@@ -1814,7 +1814,7 @@
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="如果该 unit 存在于 报单列表 或 撤单列表中，将其移除" vertex="1">
           <mxGeometry height="80" width="200" x="1160" y="960" as="geometry" />
         </mxCell>
-        <mxCell id="Szxx1c7cNjfv7xyaB-G7-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="移除后，如果撤单列表为空 &lt;span style=&quot;background-color: transparent;&quot;&gt;flag_newtarget&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; 置为1，即允许建任务，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;如果报单也是空的，那么算法单置为terminated&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Szxx1c7cNjfv7xyaB-G7-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="移除后，如果撤单列表为空&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;flag_newtarget&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; 置为1，即允许建任务，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;如果报单也是空的，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;那么&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;算法单置为terminated&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="240" x="1400" y="960" as="geometry" />
         </mxCell>
         <mxCell id="Szxx1c7cNjfv7xyaB-G7-93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="需要搞个 flag_newtarget 吗？所有 flag_newtarget 似乎都可以转换为对撤单列表是否为空的判断？" vertex="1">
