@@ -1558,7 +1558,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Qd6y4hhI0-zOE10AtNVR" name="第 9 页">
-    <mxGraphModel dx="1426" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1712" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1947,11 +1947,53 @@
         <mxCell id="m0pSRm8gC1B-yeo8WQVV-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="#" vertex="1">
           <mxGeometry height="80" width="120" x="400" y="1560" as="geometry" />
         </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-25" edge="1" parent="1" source="m0pSRm8gC1B-yeo8WQVV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="m0pSRm8gC1B-yeo8WQVV-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="m0pSRm8gC1B-yeo8WQVV-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="当前状态为&lt;div&gt;PROCESSING&lt;/div&gt;&lt;div&gt;HARD_SWITCHING&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="240" y="1680" as="geometry" />
         </mxCell>
-        <mxCell id="m0pSRm8gC1B-yeo8WQVV-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="对所有尚未完结的大算法单更新进度" vertex="1">
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;verticalAlign=top;" value="算法单心跳处理" vertex="1">
+          <mxGeometry height="140" width="840" x="560" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-16" edge="1" parent="1" source="m0pSRm8gC1B-yeo8WQVV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="m0pSRm8gC1B-yeo8WQVV-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="remainTime --" vertex="1">
+          <mxGeometry height="80" width="120" x="600" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-18" edge="1" parent="1" source="m0pSRm8gC1B-yeo8WQVV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="m0pSRm8gC1B-yeo8WQVV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="更新算法单下的&lt;div&gt;&lt;b&gt;未完成账户列表&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="760" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-21" edge="1" parent="1" source="m0pSRm8gC1B-yeo8WQVV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="m0pSRm8gC1B-yeo8WQVV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="统计当前算法单下的剩余任务" vertex="1">
+          <mxGeometry height="80" width="120" x="920" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-22" edge="1" parent="1" source="m0pSRm8gC1B-yeo8WQVV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="m0pSRm8gC1B-yeo8WQVV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="更新算法单的完成量&lt;div&gt;和理论进度条&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1080" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-28" edge="1" parent="1" source="m0pSRm8gC1B-yeo8WQVV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="m0pSRm8gC1B-yeo8WQVV-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="计算算法单的&lt;div&gt;进度状态&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1240" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-26" edge="1" parent="1" source="m0pSRm8gC1B-yeo8WQVV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="m0pSRm8gC1B-yeo8WQVV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="对所有未完成的算法单，调用心跳" vertex="1">
           <mxGeometry height="80" width="120" x="400" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="m0pSRm8gC1B-yeo8WQVV-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="确定全局进度状态" vertex="1">
+          <mxGeometry height="80" width="120" x="1440" y="1680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
