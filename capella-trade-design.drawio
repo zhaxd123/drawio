@@ -906,7 +906,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iSm7ZLnSHuhzC1ymQAkn" name="第 11 页">
-    <mxGraphModel dx="3414" dy="2102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3001" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1015,7 +1015,7 @@
         <mxCell id="2KaGse1bA5k30P0AFC0v-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;退出&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;UPDATING&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="380" x="-850" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="2KaGse1bA5k30P0AFC0v-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;判一次&amp;nbsp;Hardswitch，如果有，进入&amp;nbsp;SWITCHING 状态切换&lt;/div&gt;" vertex="1">
+        <mxCell id="2KaGse1bA5k30P0AFC0v-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;判一次&amp;nbsp;Hardswitch，如果有，进入&amp;nbsp;SWITCHING 状态&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="380" x="-850" y="520" as="geometry" />
         </mxCell>
         <mxCell id="Q0I5ET7mWldvkvZ3lnhe-2" edge="1" parent="1" source="2KaGse1bA5k30P0AFC0v-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;dashed=1;dashPattern=8 8;" target="2KaGse1bA5k30P0AFC0v-16">
@@ -1098,6 +1098,9 @@
         <mxCell id="zKhIcvyTrP1SPVAgKStp-37" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;spacing=6;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;roundedPerimeter=1;" value="当前是 移仓 还是 建仓？" vertex="1">
           <mxGeometry height="40" width="480" x="400" y="-80" as="geometry" />
         </mxCell>
+        <mxCell id="5UJOR-4urhuFVt1SM0Cw-4" edge="1" parent="1" source="zKhIcvyTrP1SPVAgKStp-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="vX1TQ_zi7fpEbPCU-xct-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zKhIcvyTrP1SPVAgKStp-41" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=middle;spacing=6;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;roundedPerimeter=1;" value="RollOverTask.OnMarketData" vertex="1">
           <mxGeometry height="40" width="280" x="1240" y="-80" as="geometry" />
         </mxCell>
@@ -1154,31 +1157,25 @@
         <mxCell id="zKhIcvyTrP1SPVAgKStp-58" edge="1" parent="1" source="zKhIcvyTrP1SPVAgKStp-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="zKhIcvyTrP1SPVAgKStp-57" value="报单">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zKhIcvyTrP1SPVAgKStp-55" parent="1" style="rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;spacing=6;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="AllocateUnitOrder 分配本次报单" vertex="1">
+        <mxCell id="zKhIcvyTrP1SPVAgKStp-55" parent="1" style="rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacing=6;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="AllocateUnitOrder 分配本次报单" vertex="1">
           <mxGeometry height="40" width="480" x="400" y="320" as="geometry" />
         </mxCell>
         <mxCell id="zKhIcvyTrP1SPVAgKStp-57" parent="1" style="rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=middle;spacing=6;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="AccountManager 下发报单或撤单" vertex="1">
           <mxGeometry height="40" width="480" x="400" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="rtidXL2nbQh82l6WFsQ--21" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="xnugy6nSoJS-RiI2zh2u-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="xnugy6nSoJS-RiI2zh2u-19" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="订单回报" vertex="1">
           <mxGeometry height="40" width="480" x="1680" y="-440" as="geometry" />
-        </mxCell>
-        <mxCell id="rtidXL2nbQh82l6WFsQ--22" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="xnugy6nSoJS-RiI2zh2u-21">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xnugy6nSoJS-RiI2zh2u-20" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="分派到品种线程" vertex="1">
           <mxGeometry height="40" width="480" x="1680" y="-360" as="geometry" />
         </mxCell>
-        <mxCell id="rtidXL2nbQh82l6WFsQ--23" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="xnugy6nSoJS-RiI2zh2u-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="xnugy6nSoJS-RiI2zh2u-21" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="ProductContext.DispatchMessage" vertex="1">
           <mxGeometry height="40" width="480" x="1680" y="-280" as="geometry" />
         </mxCell>
-        <mxCell id="xnugy6nSoJS-RiI2zh2u-22" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="InstrumentScheduler.OnOrderReport" vertex="1">
+        <mxCell id="5UJOR-4urhuFVt1SM0Cw-8" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="xnugy6nSoJS-RiI2zh2u-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnugy6nSoJS-RiI2zh2u-22" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=top;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;arcSize=8;" value="InstrumentScheduler.OnOrderReport" vertex="1">
           <mxGeometry height="40" width="480" x="1680" y="-200" as="geometry" />
         </mxCell>
         <mxCell id="xnugy6nSoJS-RiI2zh2u-26" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="xnugy6nSoJS-RiI2zh2u-25" value="移">
@@ -1190,40 +1187,43 @@
         <mxCell id="xnugy6nSoJS-RiI2zh2u-23" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="回报属于建仓还是移仓？" vertex="1">
           <mxGeometry height="40" width="480" x="1680" y="-120" as="geometry" />
         </mxCell>
-        <mxCell id="rtidXL2nbQh82l6WFsQ--6" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="xnugy6nSoJS-RiI2zh2u-27">
+        <mxCell id="5UJOR-4urhuFVt1SM0Cw-10" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="xnugy6nSoJS-RiI2zh2u-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xnugy6nSoJS-RiI2zh2u-25" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=top;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;arcSize=10;" value="RollOverManager.OnOrderReport" vertex="1">
+        <mxCell id="xnugy6nSoJS-RiI2zh2u-25" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=0;verticalAlign=top;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;arcSize=7;" value="RollOverManager.OnOrderReport" vertex="1">
           <mxGeometry height="200" width="480" x="2200" y="-200" as="geometry" />
         </mxCell>
-        <mxCell id="rtidXL2nbQh82l6WFsQ--11" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="rtidXL2nbQh82l6WFsQ--7">
+        <mxCell id="5UJOR-4urhuFVt1SM0Cw-12" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5UJOR-4urhuFVt1SM0Cw-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xnugy6nSoJS-RiI2zh2u-27" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="更新 unitInfo（仓位 + 订单状态）" vertex="1">
+        <mxCell id="xnugy6nSoJS-RiI2zh2u-27" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="更新 unitInfo&amp;nbsp;仓位（position，actual_position +&amp;nbsp;重算 build_position）" vertex="1">
           <mxGeometry height="40" width="480" x="1680" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="vX1TQ_zi7fpEbPCU-xct-1" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;spacing=6;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;roundedPerimeter=1;arcSize=7;" value="RollOverRun&amp;nbsp;" vertex="1">
+        <mxCell id="5UJOR-4urhuFVt1SM0Cw-5" edge="1" parent="1" source="vX1TQ_zi7fpEbPCU-xct-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="zKhIcvyTrP1SPVAgKStp-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vX1TQ_zi7fpEbPCU-xct-1" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;spacing=6;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;roundedPerimeter=1;arcSize=3;" value="RollOverRun&amp;nbsp;" vertex="1">
           <mxGeometry height="420" width="280" x="1240" as="geometry" />
         </mxCell>
         <mxCell id="hP1VpY16eGa-y8BupN2o-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;如果 SENDING/CANCELING 就跳过&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="260" x="1250" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="hP1VpY16eGa-y8BupN2o-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;根据盘口行情判决下单 / 改单&lt;/div&gt;" vertex="1">
+        <mxCell id="hP1VpY16eGa-y8BupN2o-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;根据盘口行情判决下单 / 改单：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;如果是开仓腿：没挂单就开出一个&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;固定量&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;开仓单&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;如果是平仓腿：没挂单就开出一个平仓单平敞口&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="260" x="1250" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="rtidXL2nbQh82l6WFsQ--3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;如果是开仓腿：计算本步开仓量，更新 target_filled，更新目前的移仓分量&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;如果是平仓腿：更新 remove_filled&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;如果订单完成，计算换腿 focus&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="rtidXL2nbQh82l6WFsQ--3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;如果是开仓腿：计算本步开仓量，更新 target_filled，更新目前的移仓分量&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;如果是平仓腿：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;更新 remove_filled&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;如果订单完成，计算换腿 focus&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="460" x="2210" y="-160" as="geometry" />
         </mxCell>
         <mxCell id="rtidXL2nbQh82l6WFsQ--12" edge="1" parent="1" source="rtidXL2nbQh82l6WFsQ--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="rtidXL2nbQh82l6WFsQ--8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rtidXL2nbQh82l6WFsQ--7" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="刷新该 unit 在各 TaskBoard 下的 UnitTask，check complete" vertex="1">
+        <mxCell id="rtidXL2nbQh82l6WFsQ--7" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="刷新该 unit 在各 TaskBoard 下的 UnitTask，检查完成状态" vertex="1">
           <mxGeometry height="40" width="480" x="1680" y="160" as="geometry" />
         </mxCell>
         <mxCell id="rtidXL2nbQh82l6WFsQ--13" edge="1" parent="1" source="rtidXL2nbQh82l6WFsQ--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="rtidXL2nbQh82l6WFsQ--9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rtidXL2nbQh82l6WFsQ--8" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="对各 TaskBoard&amp;nbsp; 进行 check complete" vertex="1">
+        <mxCell id="rtidXL2nbQh82l6WFsQ--8" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="对各 TaskBoard&amp;nbsp; 检查完成状态，刷新进度" vertex="1">
           <mxGeometry height="40" width="480" x="1680" y="240" as="geometry" />
         </mxCell>
         <mxCell id="rtidXL2nbQh82l6WFsQ--14" edge="1" parent="1" source="rtidXL2nbQh82l6WFsQ--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="rtidXL2nbQh82l6WFsQ--10">
@@ -1246,6 +1246,30 @@
         </mxCell>
         <mxCell id="rtidXL2nbQh82l6WFsQ--17" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;如果当前是 RUNNING 状态，且需要改价，则改价报单&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="480" x="1680" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5UJOR-4urhuFVt1SM0Cw-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;涨停跳过&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="360" x="1260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5UJOR-4urhuFVt1SM0Cw-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;优先级选账户&amp;nbsp; +&amp;nbsp;逐一报单&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="440" x="420" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="5UJOR-4urhuFVt1SM0Cw-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div style=&quot;&quot;&gt;按照回报的订单索引，关联到&amp;nbsp;unit，找到对应的 UnitInfo，拿到仓位+订单信息&lt;/div&gt;&lt;div style=&quot;&quot;&gt;然后做一把校验（订单号不匹配&amp;nbsp;报错告警 +&amp;nbsp;丢弃）&lt;/div&gt;&lt;div style=&quot;&quot;&gt;使用回报更新订单状态&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="440" x="1700" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="5UJOR-4urhuFVt1SM0Cw-13" edge="1" parent="1" source="5UJOR-4urhuFVt1SM0Cw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="rtidXL2nbQh82l6WFsQ--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5UJOR-4urhuFVt1SM0Cw-11" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=12;" value="对于订单完成回报，清&amp;nbsp;pending_order" vertex="1">
+          <mxGeometry height="40" width="480" x="1680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rtidXL2nbQh82l6WFsQ--21" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="xnugy6nSoJS-RiI2zh2u-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtidXL2nbQh82l6WFsQ--22" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="xnugy6nSoJS-RiI2zh2u-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtidXL2nbQh82l6WFsQ--23" edge="1" parent="1" source="xnugy6nSoJS-RiI2zh2u-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="xnugy6nSoJS-RiI2zh2u-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
